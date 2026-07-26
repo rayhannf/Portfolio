@@ -1064,3 +1064,38 @@ nav a:hover { color: var(--text-main); }
     color: rgba(255, 255, 255, 0.6);
     z-index: 2;
 }
+
+/* =========================================
+   Education Section Specific Styles
+========================================= */
+.edu-card {
+    /* আগের ডার্ক থিমের সাথে মিলিয়ে হালকা পার্পল টিন্ট দেওয়া হয়েছে */
+    background: rgba(168, 85, 247, 0.03); 
+    border: 1px solid rgba(168, 85, 247, 0.2);
+    padding: 2rem;
+}
+
+.edu-card:hover {
+    border-color: #a855f7;
+    box-shadow: 0 5px 20px rgba(168, 85, 247, 0.1);
+}
+
+.edu-card h3 {
+    font-size: 1.4rem;
+    color: var(--text-main);
+    margin-bottom: 0.5rem;
+}
+
+.edu-subtitle {
+    display: block;
+    color: #c084fc; /* স্ক্রিনশটের মতো পার্পল টেক্সট */
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+.edu-card p {
+    color: var(--text-muted);
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
