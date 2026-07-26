@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Portfolio - CK</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">CK<span>.</span></div>
+       <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <!-- Contact এর বদলে Experience এবং Active Dot -->
+                <li><a href="#experience" class="nav-active"><span class="nav-dot"></span>Experience</a></li>
+            </ul>
+        </nav>
+        <a href="#contact" class="btn-primary">Get In Touch</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="glow-bg"></div>
+        <div class="hero-content reveal">
+            <span class="badge">🟢 AVAILABLE FOR FREELANCE & CONTRACT</span>
+            <h1>RAYHAN SHORIF<br><span class="highlight">BU STUDENT</span></h1>
+            <p class="subtitle">Full-stack Engineer | Node | TypeScript | React | React Native | Redux</p>
+            <p class="desc">I deliver high-performance systems and reliable architectures designed to align technical precision with business growth.</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn-primary">Resume <i class="fas fa-download"></i></a>
+                <a href="#projects" class="btn-secondary">View My Work <i class="fas fa-folder"></i></a>
+            </div>
+        </div>
+    </section>
+
+   <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="section-header reveal">
+            <span class="section-num">02 <span class="line-small"></span> ABOUT</span>
+            <h2>About <span class="highlight">Me</span></h2>
+        </div>
+
+        <div class="about-grid reveal">
+            <!-- Left Side: Profile Image with Overlays -->
+            <div class="about-image">
+                <div class="image-badge-left"><span></span> ON THE GRID</div>
+                <div class="image-badge-right">CK - 002</div>
+                
+                <img src="profile.jpg" alt="RAYHAN SHORIF">
+                
+                <div class="image-overlay-text">
+                    <span class="img-sub-title">FULLSTACK DEVELOPER / PROJECT MANAGER</span>
+                    <h3>RAYHAN SHORIF</h3>
+                </div>
+            </div>
+
+            <!-- Right Side: Content & Stats -->
+            <div class="about-text-content">
+                <h3>Fullstack Software Developer & Project Manager</h3>
+
+                <!-- 3 Stats Cards -->
+                <div class="about-stats-grid">
+                    <div class="about-stat-card">
+                        <span class="stat-num">01 . EXPERIENCE</span>
+                        <p>5+ Years Experience</p>
+                    </div>
+                    <div class="about-stat-card">
+                        <span class="stat-num">02 . STATUS</span>
+                        <p>Available for freelance projects</p>
+                    </div>
+                    <div class="about-stat-card">
+                        <span class="stat-num">03 . BASED IN</span>
+                        <p>Based Remotely - Working globally</p>
+                    </div>
+                </div>
+
+                <!-- Paragraphs -->
+                <p class="about-desc">
+                    I'm a Fullstack Developer with 5+ years of experience building ERP, CRM, and AI-powered applications. Expert in React, Next.js, and Nest.js, I specialize in creating scalable digital solutions that bridge the gap between frontend and backend excellence.
+                </p>
+                <p class="about-desc">
+                    As a Project Manager at Ever Technologies, I lead the development of business management platforms. My background with CRES and AdminAtete has sharpened my ability to align technical implementation with strategic business objectives across various industries.
+                </p>
+                <p class="about-desc">
+                    Based in IT Management with a Fullstack specialization from Goma Digital Academy, I am a multilingual collaborator fluent in French, English, and Swahili. I am dedicated to delivering high-impact solutions that drive growth and enhance user experience.
+                </p>
+            </div>
+        </div>
+    </section>
+
+  <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <div class="section-header reveal">
+            <span class="section-num">03</span>
+            <h2>Skills</h2>
+            <p>Technologies and tools I work with</p>
+        </div>
+
+        <!-- Skills Tabs -->
+        <div class="skills-tabs reveal">
+            <button class="tab-btn active">FRONT END</button>
+            <button class="tab-btn">BACK END</button>
+            <button class="tab-btn">A.I</button>
+        </div>
+
+        <div class="skills-grid reveal">
+            <!-- 01 React.js -->
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon-title">
+                        <i class="fab fa-react"></i>
+                        <h4>React.js</h4>
+                    </div>
+                    <span class="skill-num">01</span>
+                </div>
+                <div class="progress-bar"><div class="progress expert"></div></div>
+                <span class="skill-level">EXPERT</span>
+            </div>
+
+            <!-- 02 Vue.js -->
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon-title">
+                        <i class="fab fa-vuejs"></i>
+                        <h4>Vue.js</h4>
+                    </div>
+                    <span class="skill-num">02</span>
+                </div>
+                <div class="progress-bar"><div class="progress beginner"></div></div>
+                <span class="skill-level">BEGINNER</span>
+            </div>
+
+            <!-- 03 Angular -->
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon-title">
+                        <i class="fab fa-angular"></i>
+                        <h4>Angular</h4>
+                    </div>
+                    <span class="skill-num">03</span>
+                </div>
+                <div class="progress-bar"><div class="progress expert"></div></div>
+                <span class="skill-level">EXPERT</span>
+            </div>
+
+            <!-- 04 TypeScript -->
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon-title">
+                        <!-- Custom icon placeholder for TS -->
+                        <span style="font-weight: bold; font-size: 1.2rem; background: #2a2838; padding: 5px 10px; border-radius: 8px;">TS</span>
+                        <h4>TypeScript</h4>
+                    </div>
+                    <span class="skill-num">04</span>
+                </div>
+                <div class="progress-bar"><div class="progress expert"></div></div>
+                <span class="skill-level">EXPERT</span>
+            </div>
+
+            <!-- 05 JavaScript -->
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon-title">
+                        <i class="fab fa-js"></i>
+                        <h4>JavaScript</h4>
+                    </div>
+                    <span class="skill-num">05</span>
+                </div>
+                <div class="progress-bar"><div class="progress expert"></div></div>
+                <span class="skill-level">EXPERT</span>
+            </div>
+
+            <!-- 06 HTML/CSS -->
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon-title">
+                        <i class="fab fa-html5"></i>
+                        <h4>HTML/CSS</h4>
+                    </div>
+                    <span class="skill-num">06</span>
+                </div>
+                <div class="progress-bar"><div class="progress expert"></div></div>
+                <span class="skill-level">EXPERT</span>
+            </div>
+
+            <!-- 07 Tailwind CSS -->
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon-title">
+                        <i class="fas fa-wind"></i>
+                        <h4>Tailwind CSS</h4>
+                    </div>
+                    <span class="skill-num">07</span>
+                </div>
+                <div class="progress-bar"><div class="progress expert"></div></div>
+                <span class="skill-level">EXPERT</span>
+            </div>
+
+            <!-- 08 Framer Motion -->
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon-title">
+                        <!-- Custom icon placeholder for Framer -->
+                        <span style="font-weight: bold; font-size: 1.2rem; background: #2a2838; padding: 5px 10px; border-radius: 8px;">F</span>
+                        <h4>Framer Motion</h4>
+                    </div>
+                    <span class="skill-num">08</span>
+                </div>
+                <div class="progress-bar"><div class="progress advanced"></div></div>
+                <span class="skill-level">ADVANCED</span>
+            </div>
+
+            <!-- 09 GSAP -->
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon-title">
+                        <i class="fas fa-bolt"></i>
+                        <h4>GSAP</h4>
+                    </div>
+                    <span class="skill-num">09</span>
+                </div>
+                <div class="progress-bar"><div class="progress advanced"></div></div>
+                <span class="skill-level">ADVANCED</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="section-header text-left reveal">
+            <span class="section-num">04 <span class="line"></span> PROJECTS</span>
+            <h2>My projects</h2>
+            <div class="header-flex">
+                <p>Selected projects demonstrating practical solutions and well-architected<br>digital experiences.</p>
+                <!-- Filter Buttons -->
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">ALL</button>
+                    <button class="filter-btn" data-filter="web">WEB</button>
+                    <button class="filter-btn" data-filter="app">APP</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects-grid reveal">
+            <!-- Project 01 -->
+            <div class="project-card web">
+                <div class="project-image-wrapper">
+                    <div class="tag">WEB</div>
+                    <img src="calculator.jpg" alt="Calculator">
+                    <div class="project-number">01</div>
+                </div>
+                <div class="project-content">
+                    <span class="category"><span class="line-small"></span> CASE · WEB</span>
+                    <h3>Calculator</h3>
+                    <p>This is a simple Calculator. It's continuously being improved...</p>
+                    <div class="project-footer">
+                        <a href="#" class="view-case">VIEW CASE <i class="fas fa-arrow-right"></i></a>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 02 -->
+            <div class="project-card web">
+                <div class="project-image-wrapper">
+                    <div class="tag">WEB</div>
+                    <img src="https://via.placeholder.com/400x250/2a2838/94a3b8?text=Ever+Gauzy+Image" alt="Ever Gauzy">
+                    <div class="project-number">02</div>
+                </div>
+                <div class="project-content">
+                    <span class="category"><span class="line-small"></span> CASE · WEB</span>
+                    <h3>Ever Gauzy Platform</h3>
+                    <p>Ever Gauzy Platform is an open-source business management solution that integrates ERP, CRM,...</p>
+                    <div class="project-footer">
+                        <a href="#" class="view-case">VIEW CASE <i class="fas fa-arrow-right"></i></a>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 03 -->
+            <div class="project-card web">
+                <div class="project-image-wrapper">
+                    <div class="tag">WEB</div>
+                    <img src="https://via.placeholder.com/400x250/2a2838/94a3b8?text=Acho+System+Image" alt="Acho System">
+                    <div class="project-number">03</div>
+                </div>
+                <div class="project-content">
+                    <span class="category"><span class="line-small"></span> CASE · WEB</span>
+                    <h3>Acho System</h3>
+                    <p>Acho System is a secure and sustainable financial platform offering payment and investment...</p>
+                    <div class="project-footer">
+                        <a href="#" class="view-case">VIEW CASE <i class="fas fa-arrow-right"></i></a>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 04 
+            <div class="project-card app">
+                <div class="project-image-wrapper">
+                    <div class="tag">APP</div>
+                    <img src="https://via.placeholder.com/400x250/2a2838/94a3b8?text=HIÜRD+Image" alt="HIÜRD">
+                    <div class="project-number">04</div>
+                </div>
+                <div class="project-content">
+                    <span class="category"><span class="line-small"></span> CASE · APP</span>
+                    <h3>HIÜRD</h3>
+                    <p>HIÜRD is a trusted local service marketplace connecting people for everyday tasks. It facilitate...</p>
+                    <div class="project-footer">
+                        <a href="#" class="view-case">VIEW CASE <i class="fas fa-arrow-right"></i></a>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Project 05 (Active/Glow State as seen in screenshot) 
+            <div class="project-card web glow-card">
+                <div class="project-image-wrapper">
+                    <div class="tag">WEB</div>
+                    <img src="https://via.placeholder.com/400x250/2a2838/94a3b8?text=AdminAtete+Image" alt="AdminAtete">
+                    <div class="tech-stack-tags">
+                        <span>REACT JS</span>
+                        <span>EXPRESS JS</span>
+                        <span>POSTGRESQL</span>
+                        <span>SEQUELIZE</span>
+                    </div>
+                    <div class="project-number">05</div>
+                </div>
+                <div class="project-content">
+                    <span class="category"><span class="line-small"></span> CASE · WEB</span>
+                    <h3 class="highlight-title">AdminAtete</h3>
+                    <p>AdminAtete is a document archiving application that digitizes and organizes business documents...</p>
+                    <div class="project-footer">
+                        <a href="#" class="view-case">VIEW CASE <i class="fas fa-arrow-right"></i></a>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+          <!-- Project 06 -->
+           <!-- <div class="project-card app">
+                <div class="project-image-wrapper">
+                    <div class="tag">APP</div>
+                    <img src="https://via.placeholder.com/400x250/2a2838/94a3b8?text=Focus+Image" alt="Focus">
+                    <div class="project-number">06</div>
+                </div>
+                <div class="project-content">
+                    <span class="category"><span class="line-small"></span> CASE · APP</span>
+                    <h3>Focus</h3>
+                    <p>Focus is a mobile application centered around inspirational quotes, providing users with a curate...</p>
+                    <div class="project-footer">
+                        <a href="#" class="view-case">VIEW CASE <i class="fas fa-arrow-right"></i></a>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="load-more-container reveal">
+            <a href="#" class="btn-gradient">See more projects <i class="fas fa-external-link-alt"></i></a>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section-padding">
+        <div class="section-header reveal">
+            <span class="section-num">05 <span class="line-small"></span> EXPERIENCE</span>
+            <h2>Professional Experience</h2>
+            <p>My journey through the tech industry.</p>
+        </div>
+
+        <div class="timeline-container reveal">
+            <!-- Vertical Line -->
+            <div class="timeline-line"></div>
+
+            <!-- Item 01 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-meta">
+                        <span class="meta-num">01</span>
+                        <span class="meta-date">Dec 2018 - Sep 2021 . REMOTE</span>
+                    </div>
+                    <div class="timeline-card">
+                        <h3>Frontend Web Developer</h3>
+                        <span class="company">@ Buku My Class</span>
+                        <p>Worked as a Full Stack Developer (Frontend and Backend) and Frontend Developer (React.js) for Buku, an application enabling secondary school students to access class notes from anywhere.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 02 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-meta">
+                        <span class="meta-num">02</span>
+                        <span class="meta-date">Sep 2021 - Feb 2022 . REMOTE</span>
+                    </div>
+                    <div class="timeline-card">
+                        <h3>Frontend Developer</h3>
+                        <span class="company">@ One Stop Center</span>
+                        <p>Worked as a Frontend Developer (Angular) on a web application that manages parcel-related information and shares it across multiple company agencies.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 03 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-meta">
+                        <span class="meta-num">03</span>
+                        <span class="meta-date">Sept 2022 - Dec 2022 . REMOTE</span>
+                    </div>
+                    <div class="timeline-card">
+                        <h3>Backend Developer</h3>
+                        <span class="company">@ Attendacy GDA (KADEA)</span>
+                        <p>Worked as a Full-stack Developer (Express.js, React.js) for Attendacy GDA, an application to manage student attendance within a coding academy.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 04 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-meta">
+                        <span class="meta-num">04</span>
+                        <span class="meta-date">Dec 2022 - Jun 2023 . HYBRID, GOMA DRC</span>
+                    </div>
+                    <div class="timeline-card">
+                        <h3>Frontend Developer</h3>
+                        <span class="company">@ CRES Startup</span>
+                        <p>Worked as a Full-stack Web Developer (Nest.js, Next.js) for a start-up and research center focused on creating web applications and artificial intelligence solutions for business management and data collection.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 05 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-meta">
+                        <span class="meta-num">05</span>
+                        <span class="meta-date">Feb 2023 - Jul 2023 . REMOTE, BELGIUM</span>
+                    </div>
+                    <div class="timeline-card">
+                        <h3>Full Stack Engineer</h3>
+                        <span class="company">@ AdminAtete</span>
+                        <p>Developed as a Full-stack Developer (Express.js, Next.js) for AdminAtete, a tech startup offering digital solutions for business services, including a document archiving application.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 06 -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-meta">
+                        <span class="meta-num">06</span>
+                        <span class="meta-date">Nov 2023 - Present . REMOTE, BULGARIA, USA</span>
+                    </div>
+                    <div class="timeline-card">
+                        <h3>Full Stack Engineer</h3>
+                        <span class="company">@ Ever Technologies</span>
+                        <p>Worked as a Full-stack Developer (Nest.js, Next.js, React Native) on Ever Teams (Open Work and Project Management Platform) and Ever Gauzy (Open Business Management Platform - ERP/CRM/HRM/ATS/PM). Also involved in various client projects.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+   <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="section-header reveal">
+            <span class="section-num">06 <span class="line-small"></span> GET IN TOUCH</span>
+            <h2>Get In Touch</h2>
+            <p>Let's work together on your next project</p>
+        </div>
+
+        <div class="contact-wrapper reveal">
+            <!-- Left Side: Contact Info Cards -->
+            <div class="contact-info">
+                <!-- Email Card -->
+                <div class="info-card">
+                    <span class="info-num">01</span>
+                    <div class="info-icon">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="info-details">
+                        <span class="info-label">EMAIL</span>
+                        <h4>rayhanshorif013@gmail.com</h4>
+                    </div>
+                </div>
+
+                <!-- Phone Card -->
+                <div class="info-card">
+                    <span class="info-num">02</span>
+                    <div class="info-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="info-details">
+                        <span class="info-label">PHONE</span>
+                        <h4>+880 1845155013</h4>
+                    </div>
+                </div>
+
+                <!-- Availability Card -->
+                <div class="info-card">
+                    <span class="info-num">03</span>
+                    <div class="info-icon">
+                        <i class="far fa-check-square"></i>
+                    </div>
+                    <div class="info-details">
+                        <span class="info-label">AVAILABILITY</span>
+                        <h4 class="status-active"><span class="status-dot"></span> Open to projects</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Contact Form -->
+            <div class="contact-form-container">
+                <form action="#" class="contact-form">
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="your@email.com" required>
+                        </div>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Message Subject" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        Send Message <i class="far fa-envelope"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                
+                <!-- Column 1: Brand & Bio -->
+                <div class="footer-col brand-col">
+                    <div class="footer-logo">
+                        <span class="ck-text">RS</span> 
+                        <span class="line-gradient"></span> 
+                        <span class="studio">STUDIO</span> 
+                        <h2>RAYHAN<span>.</span></h2>
+                    </div>
+                    <p class="footer-bio">I build scalable full-stack systems with clean architecture, solid backend logic, and production-ready user experiences. Focused on code quality, maintainability, and real-world performance.</p>
+                    <div class="footer-contact-info">
+                        <p><i class="far fa-envelope"></i> rayhanshorif013@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</p>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links (A) -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">
+                        <span class="letter">A</span> <span class="line-gradient"></span> QUICK LINKS
+                    </h4>
+                    <ul class="footer-links">
+                        <li><a href="#home"><span class="num">01</span> Home</a></li>
+                        <li><a href="#about"><span class="num">02</span> About</a></li>
+                        <li><a href="#skills"><span class="num">03</span> Skills</a></li>
+                        <li><a href="#projects"><span class="num">04</span> Projects</a></li>
+                        <li><a href="#experience"><span class="num">05</span> Experience</a></li>
+                        <li><a href="#contact"><span class="num">06</span> Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Featured Work (B) -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">
+                        <span class="letter">B</span> <span class="line-gradient"></span> FEATURED WORK
+                    </h4>
+                    <ul class="footer-links no-num">
+                        <li><a href="#">AdminAtete</a></li>
+                        <li><a href="#">CRES Startup</a></li>
+                        <li><a href="#">KADEA Academy</a></li>
+                        <li><a href="#">Ever Technologies Projects</a></li>
+                        <li><a href="#">Buku My Class</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Tech Stack (D) & Connect (E) -->
+                <div class="footer-col right-col">
+                    <h4 class="footer-heading">
+                        <span class="letter">D</span> <span class="line-gradient"></span> TECH STACK
+                    </h4>
+                    <div class="tech-tags">
+                        <span>POSTGRESQL</span>
+                        <span>JAVASCRIPT</span>
+                        <span>RESTFUL API</span>
+                        <span>GIT</span>
+                        <span>DATABASE</span>
+                        <span>EXPRESSJS</span>
+                        <span>TYPESCRIPT</span>
+                        <span>NODE.JS</span>
+                        <span>REACT NATIVE</span>
+                        <span>REACT</span>
+                        <span>REDUX</span>
+                        <span>HTML5</span>
+                        <span>CSS 3</span>
+                    </div>
+
+                    <h4 class="footer-heading mt-2">
+                        <span class="letter">E</span> <span class="line-gradient"></span> CONNECT
+                    </h4>
+                    <div class="social-links footer-socials">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="far fa-envelope"></i></a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Bottom Copyright Bar -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cédric Karungu. All rights reserved.</p>
+                <p class="footer-status">Fullstack Software Developer <span class="dot-sep">•</span> Open to Remote Opportunities</p>
+            </div>
+        </div>
+
+        <!-- Back to Top Button -->
+        <a href="#home" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
